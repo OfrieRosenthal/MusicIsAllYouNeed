@@ -11,7 +11,7 @@ To run the code, you'll need access to the Spotify Million Playlist Dataset. The
 ### Prerequisites
 
 * A Google account to use Google Colab and Google Drive.
-* The unzipped Spotify Million Playlist Dataset stored in `MyDrive/DL_project/dataset/spotify_million_playlist_dataset_unzipped/`.
+* The unzipped Spotify Million Playlist Dataset stored in `/dataset/spotify_million_playlist_dataset_unzipped/`.
 * you can find it here: [https://engineering.atspotify.com/2018/5/introducing-the-million-playlist-dataset-and-recsys-challenge-2018](https://www.kaggle.com/datasets/himanshuwagh/spotify-million)
 
 ---
