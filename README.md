@@ -54,7 +54,17 @@ This final notebook handles the model training and evaluation. It loads the toke
     * **Minimum Playlist Length**: **`30`** (used for filtering)
     * **Data Split Ratio**: **`80/10/10`** (Train/Validation/Test)
     * **Fast Prototyping Subset**: **`25%`** of the data is used for a quick run.
-    * **Model**: **`GPT2LMHeadModel`**
-    * **Evaluation Metric**: **`recall@20`**
+    * **Model**: **`GPT-2`**
+    * **Training Parameters**:
+       * num_train_epochs            = 6
+       * per_device_train_batch_size = 16
+       * gradient_accumulation_steps = 4
+       * per_device_eval_batch_size  = 16
+       * eval_accumulation_steps     = 1
+       * logging_steps               = 100
+       * save_steps                  = 200
+       * learning_rate               = 5e-4
+       * weight_decay                = 0.01
+    * **Evaluation Metric**: **`R-precision`**
  
 
